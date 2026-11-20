@@ -1,0 +1,56 @@
+SDLC selection objective:
+- Choose exactly one primary development model for the tourism and hospitality project: Waterfall, V-Model, Prototype, RAD, Spiral, or Agile.
+- Select the model that best fits the project's dominant constraints and risks, rather than choosing a model because it is generally popular.
+- Record the assumptions, evidence, trade-offs, and rejected alternatives so that the decision can be reviewed if the project scope or risk profile changes.
+
+How to evaluate the project:
+1. Establish the delivery context: product type, guest and staff personas, jurisdictions, integrations, launch date, peak-season dates, budget, team size, and procurement constraints.
+2. Rate each criterion as low, medium, or high. Use evidence such as approved requirements, incident history, integration specifications, performance targets, stakeholder availability, and regulatory obligations.
+3. Identify the two or three dominant drivers. Examples include fixed contractual scope, safety-critical operations, unresolved user needs, severe integration uncertainty, or an immovable launch date.
+4. Select the single model whose strengths address those drivers with the fewest unacceptable weaknesses.
+5. Confirm that the model supports required security, privacy, accessibility, safety, sustainability, testing, monitoring, documentation, release, and support activities.
+6. Review the selection at discovery completion, before implementation, and whenever scope, risk, regulations, integrations, or launch constraints materially change.
+
+Scoring and selection rule:
+- A fit score must represent suitability for the stated project conditions, using the same criteria and scale for every model.
+- The model with the highest validated fit score is the default recommendation. A model with a lower score must not be labelled "chosen" unless the decision record names the overriding constraint, its evidence, the risk accepted, and the approval authority.
+- Do not select Agile merely because it is familiar or generally flexible. Agile is justified only when changing requirements, incremental value, and frequent stakeholder feedback outweigh the benefits of the higher-scoring alternative.
+- If Waterfall has the highest score because requirements are stable, approvals are formal, and sequential sign-off is required, Waterfall should be selected unless a documented exception applies.
+
+Decision criteria:
+- Requirement stability: Are business rules, booking policies, pricing, cancellation, loyalty, reporting, and operational workflows baselined and unlikely to change?
+- Change frequency: How often will guest expectations, partner contracts, regulations, promotions, or internal processes change during delivery?
+- User and stakeholder clarity: Are guest, front-desk, housekeeping, tour-operator, administrator, and support needs understood and available for validation?
+- Prototype need: Is it necessary to test navigation, booking flows, accessibility, personalization, multilingual content, or staff workflows before committing to a full solution?
+- Safety and service impact: Could an error affect guest safety, emergency handling, accessibility, transport coordination, payment, check-in, or continuity of essential operations?
+- Security and privacy risk: Will the system handle identity data, passports, payment data, location, travel history, credentials, or privileged property-management functions?
+- Verification and documentation formality: Are traceability, approvals, independent verification, audit evidence, sign-offs, or formal test records required?
+- Technical and integration uncertainty: How uncertain are external APIs, payment providers, channel managers, property-management systems, identity services, offline operation, or data migration?
+- Project complexity: Consider the number of teams, services, locations, jurisdictions, vendors, user roles, data flows, and deployment environments.
+- Legacy dependence: How much must the solution preserve existing property-management, reservation, accounting, CRM, or reporting behavior?
+- Performance and resilience: What are the peak-season traffic, booking concurrency, response-time, availability, disaster-recovery, and outage-tolerance requirements?
+- Delivery urgency: Is there a fixed opening, event, contract, seasonal, or regulatory date, and can scope be prioritized if the date cannot move?
+- Stakeholder availability: Can guests, hotel staff, tour operators, compliance staff, and technology owners participate frequently enough for workshops, reviews, and acceptance testing?
+- Team capability: Does the team have the product ownership, architecture, testing, DevOps, security, and domain expertise needed by the candidate model?
+- Budget and resources: Is there sufficient capacity for iterative discovery, prototypes, formal documentation, risk analysis, test automation, and repeated stakeholder feedback?
+- Release and operational model: Can the organization deploy incrementally, or does it require infrequent releases with extensive change control and training?
+
+Model selection guidance:
+- Waterfall: Select when requirements and interfaces are stable, scope is contractually defined, approvals are extensive, and delivery can proceed through sequential baselines. It is a poor fit when frequent feedback or changing requirements are expected.
+- V-Model: Select when each requirement must map to a planned verification and validation activity, safety or service impact is high, and formal reviews, traceability, acceptance evidence, and controlled change are essential. It requires disciplined requirements and test planning.
+- Prototype: Select when the main uncertainty is what guests or staff need or how they will use the product. Use prototypes to validate journeys, information architecture, accessibility, and operational workflows before committing to production architecture. A prototype is not automatically production-ready.
+- RAD: Select when delivery must be very fast, requirements can be clarified in workshops, stakeholders are continuously available, and reusable components or low-code capabilities can reduce build time. Do not select it when formal verification, deep integration uncertainty, or long-term architectural complexity dominates.
+- Spiral: Select when project risk is the primary concern, especially where new technology, complex integrations, migration, security exposure, or high outage consequences require repeated risk analysis and proof-of-concept work. The additional planning and risk-management overhead must be affordable.
+- Agile: Select when guest and business needs will evolve, value can be delivered incrementally, a product owner and representative users can provide regular feedback, and the organization can support iterative planning, testing, deployment, and reprioritization. Agile still requires explicit controls for privacy, security, accessibility, safety, and compliance.
+
+Non-negotiable controls:
+- Security, privacy, accessibility, safety, sustainability evidence, testing, observability, backup and recovery, and operational readiness are required practices within the selected model, not separate model choices.
+- The selected model must define requirements ownership, acceptance criteria, risk ownership, change control, test evidence, release approval, incident response, and post-release review.
+- High-risk functions must have proportionate threat modeling, access control, audit logging, failure handling, manual fallback, and recovery testing regardless of the model selected.
+- Peak-season readiness must be demonstrated through load, resilience, monitoring, and rollback testing before a release that could affect live bookings or guest service.
+
+Selection record:
+- State the selected primary model and the project conditions that justify it.
+- List the highest-rated criteria and the evidence supporting each rating.
+- Explain why the closest alternative models were rejected.
+- Identify assumptions, risks, required controls, review checkpoints, and the trigger for revisiting the decision.

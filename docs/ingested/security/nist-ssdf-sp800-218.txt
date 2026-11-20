@@ -1,0 +1,13 @@
+NIST SECURE SOFTWARE DEVELOPMENT FRAMEWORK (SSDF)
+
+Source: National Institute of Standards and Technology (NIST), SP 800-218, Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities, final publication, February 2022.
+Official publication: https://csrc.nist.gov/pubs/sp/800/218/final
+
+Evidence summary
+NIST explains that few software development life-cycle models explicitly address software security in detail. It recommends integrating secure software development practices into each SDLC implementation. The SSDF provides high-level practices and a common vocabulary that producers and software acquirers can use to communicate about secure development.
+
+Use in TravelMind
+Treat security as cross-cutting work within the selected model, not as a reason to assume one lifecycle automatically makes a system secure. Tailor threat analysis, access control, secure implementation, verification, vulnerability handling, and supplier discussions to the project's actual systems, risk, and organizational obligations. This source does not establish that a particular hotel, jurisdiction, or TravelMind recommendation is compliant.
+
+Version note
+This file summarizes the final SP 800-218 Version 1.1 publication identified above. NIST's source page should be checked for later revisions or draft status before using this summary as a current compliance reference.

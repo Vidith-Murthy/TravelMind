@@ -1,0 +1,29 @@
+TRAVELMIND TOURISM SDLC DECISION GUIDE
+
+Purpose
+Use this guide with the project's approved SRS to recommend one primary software development life-cycle (SDLC) model. The guide supports judgment; it does not replace project governance, legal review, safety decisions, or the SRS.
+
+Decision sequence
+1. Establish the delivery context: guest and staff users, property or tourism service, integrations, jurisdictions, team capacity, launch window, operating season, and the cost of service interruption. Separate confirmed facts from assumptions.
+2. Identify the largest uncertainties and consequences. Distinguish uncertainty about user journeys from uncertainty about interfaces, data migration, security, peak load, operational continuity, or formal verification.
+3. Select two or three dominant decision factors. Use only evidence present in the SRS or explicitly supplied by stakeholders. Link each factor to an SRS requirement ID or mark it NEEDS-VALIDATION.
+4. Compare all six candidate models against the same criteria and a consistent 1-to-5 fit scale. Give a short evidence-based reason for each score. Scores are structured judgment, not measured probabilities.
+5. Recommend the highest-scoring model supported by validated evidence. If a different model is proposed, state the evidence-based overriding constraint, accepted risk, and approval owner. If evidence cannot distinguish candidates, name the uncertainty and request human confirmation rather than inventing certainty.
+6. State rejected alternatives, key trade-offs, controls, assumptions, and the trigger for reconsidering the decision. Reassess after discovery and whenever scope, integration, risk, regulatory context, or launch constraints materially change.
+
+Tourism and hospitality fit signals
+- Waterfall: Consider when the SRS and partner interfaces are stable, the scope is contractually baselined, and formal sequential approvals dominate. Do not infer stability merely because a seasonal date is fixed; if scope must change, make prioritization and change control explicit.
+- V-Model: Consider when requirements need planned verification and validation, with strong traceability, reviews, acceptance evidence, or controlled changes. Identify who will approve tests and whether the team can maintain the required evidence.
+- Prototype: Consider when guest booking, check-in, accessibility, multilingual content, concierge, housekeeping, or tour workflows are not yet understood. Use prototypes to test the experience before committing to production architecture; do not treat a prototype as production-ready.
+- RAD: Consider when time is short, reusable components are suitable, and hotel or tourism stakeholders can participate continuously in structured workshops. Check that integration depth, security, reliability, and verification needs remain manageable.
+- Spiral: Consider when severe technical or operational uncertainty dominates, such as a poorly understood property-management interface, migration, payment integration, security exposure, or outage consequence. Use explicit risk-reduction work and proofs of concept; account for the extra planning and specialist capacity.
+- Agile: Consider when requirements are expected to evolve, value can be released in increments, and a product owner plus representative users can review work regularly. A two-week feedback opportunity is useful evidence only if those people can make timely decisions and releases can be safely controlled.
+
+Controls that remain necessary in every model
+Include proportionate privacy and security work, accessible user journeys, safety review, test and acceptance evidence, monitoring, backup and recovery, release readiness, incident handling, and operational support. A lifecycle label does not supply these controls automatically. Before a seasonal or high-impact release, confirm the project's own load, resilience, rollback, and service-continuity acceptance criteria rather than inventing universal thresholds.
+
+Hospitality decision-record checklist
+Record the selected model; the highest-impact decision factors; linked SRS evidence; scores and score reasons for all candidates; assumptions and missing evidence; closest rejected alternatives; accepted risks and mitigations; control owners; approval authority; review date or trigger; and the human reviewer responsible for confirming local obligations.
+
+Source and interpretation notes
+This project-specific guide synthesizes the companion criteria document at docs/ingested/product/sdlc-selection-criteria.txt with NIST SP 800-218, Secure Software Development Framework (SSDF), final version 1.1 (2022), available at https://csrc.nist.gov/pubs/sp/800/218/final. NIST says secure-development practices should be integrated into each SDLC implementation because few models cover software security in detail. The six-model fit signals are TravelMind decision guidance, not quotations or rankings from NIST. Use the supplied SRS and authorized human judgment for project-specific conclusions.

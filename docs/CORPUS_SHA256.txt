@@ -1,0 +1,9 @@
+dbd7100e8cd4845cf593550ea8c5ffbbeaf88e3c888ae9ec4f55284fd9900318  docs/ingested/product/sdlc-selection-criteria.txt
+b32c11fe35b69a22d6c5d7a3b61c8016d7986fea9d9b792ac259e1ec6dbfc196  docs/ingested/product/tourism-sdlc-decision-guide.txt
+6dfa51790e31cf9b6a6ffae035e25f2b53ebbb4cb4f87a8018756984bd51e941  docs/ingested/security/nist-csf-2.0.txt
+9bbb909ce0ff369742ae5b263aadc5381b525a3909376cc569fceb9b7a79a8b1  docs/ingested/security/nist-ssdf-sp800-218.txt
+de150229d7c5cf4828062311eb98537f16b67494ac686dadd2df998b3889e1fd  docs/ingested/security/owasp-llm-top-10-2025.txt
+d440467844ff169cc3eb045304c78fe62a9ec0c5aaf61b6f1789b5fad5ff13fc  docs/ingested/tourism/gstc-hotel-standard.txt
+3b5f37da77105a0b020ab3517aece1c61f0567c11909e3ee7a2357ce1519fb9f  docs/ingested/tourism/lodging-safety.txt
+400bfd28787f818211c2bcf7359695e25fa6c7b253e4fe0d3aa226d4b45538ed  docs/ingested/tourism/un-tourism-sustainable-development.txt
+f565a5121382941ba186c14d4f1e42957c0ce99606bbe1cf1986ad077bfc9420  docs/ingested/tourism/wttc-hotel-sustainability-basics.txt
